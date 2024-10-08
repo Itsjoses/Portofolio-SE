@@ -9,7 +9,7 @@ import Certificate from "./pages/Certificate.tsx";
 import DetailProject from "./pages/DetailProject.tsx";
 import Meteor from "./components/misc/Meteor.tsx";
 import Pet from "./components/layouts/Pet.tsx";
-
+import { AnimatePresence } from "framer-motion";
 // seluruh routing ditaruh pada router
 const router = createBrowserRouter([
   {
@@ -32,7 +32,9 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <ThemeProvider>
-      <RouterProvider router={router} />
+      <AnimatePresence>
+        <RouterProvider router={router} />
+      </AnimatePresence>
       <Meteor />
       <Pet />
     </ThemeProvider>

@@ -21,6 +21,7 @@ export default function Project() {
               whileInView={{ y: 0, opacity: 1 }}
               viewport={{ once: true, amount: 0.3 }} // Tambahkan sekali lagi untuk memastikan
               transition={{ duration: 0.6 }}
+              exit={{ y: "3vw", opacity: 0 }}
             >
               <ProjectCard projectData={data} />
             </motion.div>

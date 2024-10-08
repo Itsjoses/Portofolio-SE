@@ -27,7 +27,7 @@ export default function ProjectCard({
             {projectData.image ? (
               <img
                 src={projectData.image}
-                alt="ini gambar"
+                alt=""
                 className="object-contain w-full h-full"
                 loading="lazy"
               />

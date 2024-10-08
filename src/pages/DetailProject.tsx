@@ -62,7 +62,7 @@ export default function DetailProject() {
             handleZoom={handleZoom}
           />
           <DynamicLayout border={false}>
-            <div className="lg:h-screen lg:flex lg:items-center lg:pt-0 lg:my-0 pt-28 my-4 ">
+            <div className="lg:h-screen lg:flex lg:items-center lg:pt-0 lg:my-0 pt-28 my-4 sm:pb-0 pb-8">
               <div className="w-full">
                 <div className="flex flex-col-reverse lg:grid lg:grid-cols-12 gap-8 w-full items-center dark:text-neutral-50 delay-100 transition-colors">
                   <div className="lg:col-span-6 xl:col-span-5 w-full gap-4 flex flex-col break-words relative">
@@ -95,12 +95,12 @@ export default function DetailProject() {
                       <>
                         <div className="flex items-center gap-3">
                           {projectData.github !== "" && (
-                            <a href={projectData.github}>
+                            <a href={projectData.github} target="_blank">
                               <FaGithub className="md:w-8 md:h-8 w-6 h-6" />
                             </a>
                           )}
                           {projectData.live != "" && (
-                            <a href={projectData.live}>
+                            <a href={projectData.live} target="_blank">
                               <MdOutlineWebAsset className="md:w-9 md:h-9 w-7 h-7" />
                             </a>
                           )}

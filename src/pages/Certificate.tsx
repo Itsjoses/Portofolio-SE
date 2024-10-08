@@ -18,7 +18,8 @@ export default function Certificate() {
               className="shadow-lg"
               initial={{ y: "3vw", opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
-              viewport={{ once: true, amount: 0.4 }} // Tambahkan sekali lagi untuk memastikan
+              viewport={{ once: true, amount: 0.3 }} // Tambahkan sekali lagi untuk memastikan
+              exit={{ y: "3vw", opacity: 0 }}
               key={index}
               transition={{ duration: 0.6 }}
               src={`${certificate}.png`}

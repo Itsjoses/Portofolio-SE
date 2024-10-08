@@ -30,6 +30,7 @@ export default function Home() {
           initial={{ y: "3vw", opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.4, delay: 0.1 }}
+          exit={{ y: "3vw", opacity: 0 }}
         >
           <div className="flex flex-col-reverse justify-center lg:grid lg:grid-cols-12 w-full items-center dark:text-neutral-50 delay-100 transition-colors lg:gap-12 xl:gap-0 gap-14 ">
             <div className="lg:col-span-7 xl:col-span-8 w-full gap-3 md:gap-2 flex flex-col break-words px-6 sm:px-28 lg:px-0 z-20 relative items-start sm:items-center lg:items-start">
@@ -72,7 +73,7 @@ export default function Home() {
                 href="https://www.linkedin.com/in/jose-susanto-a535a723b/"
                 target="_blank"
               >
-                <button className="text-sm sm:text-base mt-5 sm:w-fit rounded-full py-2 sm:py-2.5 w-full sm:px-24 bg-neutral-950 text-neutral-50 dark:text-neutral-950 dark:bg-neutral-50  delay-100 transition-colors">
+                <button className="px-10 text-sm sm:text-base mt-5 sm:w-fit rounded-full py-2 sm:py-2.5 w-full sm:px-24 bg-neutral-950 text-neutral-50 dark:text-neutral-950 dark:bg-neutral-50  delay-100 transition-colors">
                   My Resume
                 </button>
               </a>

@@ -204,6 +204,9 @@ export const DETAIL = {
       "/assets/project/sestore/product-detail.png",
     ],
     tag: ["vite", "react", "docker", "strapi", "mysql"],
+    status: "public",
+    github: "https://github.com/Itsjoses/SEStore-React",
+    live: "",
   },
   cpi: {
     data: [
@@ -261,6 +264,9 @@ export const DETAIL = {
     ],
     image: ["/assets/project/cuphead/home.png"],
     tag: ["html5", "css", "js", "canvas"],
+    status: "public",
+    github: "https://github.com/Itsjoses/Cuphead",
+    live: "http://91.108.111.225:6968",
   },
   "sejapan-food": {
     data: [
@@ -272,6 +278,9 @@ export const DETAIL = {
     ],
     image: ["/assets/project/sejapan/home.png"],
     tag: ["vite", "react", "strapi", "mysql", "docker"],
+    status: "public",
+    github: "https://github.com/Itsjoses/SE-JapanFood-React-Strapi",
+    live: "http://91.108.111.225:5174/",
   },
   beecanteen: {
     data: [
@@ -283,6 +292,9 @@ export const DETAIL = {
     ],
     image: ["/assets/project/bee-canteen/home-page.webp"],
     tag: ["Kotlin", "Firebase"],
+    status: "private",
+    github: "",
+    live: "",
   },
   "seimple-chat": {
     data: [
@@ -294,6 +306,9 @@ export const DETAIL = {
     ],
     image: ["/assets/project/seimple-chat/home.png"],
     tag: ["Vite", "React", "Nest", "Socket IO", "Docker"],
+    status: "public",
+    github: "https://github.com/Itsjoses/SEimple-Chat",
+    live: "http://91.108.111.225:6901/",
   },
   sebook: {
     data: [
@@ -305,6 +320,9 @@ export const DETAIL = {
     ],
     image: ["/assets/project/sebook/home.png"],
     tag: ["Vite", "React", "Golang"],
+    status: "public",
+    github: "https://github.com/Itsjoses/SE-Book",
+    live: "",
   },
   "fog-automization": {
     data: [
@@ -316,6 +334,9 @@ export const DETAIL = {
     ],
     image: ["/assets/project/fog-automization-ansible/home.png"],
     tag: ["Ansible", "Linux"],
+    status: "private",
+    github: "",
+    live: "",
   },
   "dhcp-failover": {
     data: [
@@ -327,6 +348,9 @@ export const DETAIL = {
     ],
     image: ["/assets/project/dhcp-failover/home.png"],
     tag: ["Windows Server", "Cisco", "Network Administrator"],
+    status: "private",
+    github: "",
+    live: "",
   },
   "AD-Login-Tester": {
     data: [
@@ -338,6 +362,61 @@ export const DETAIL = {
     ],
     image: ["/assets/project/ad-login/home.png"],
     tag: ["Python", "Windows Server"],
+    status: "private",
+    github: "",
+    live: "",
+  },
+  mytrickster: {
+    data: [
+      {
+        title: "MyTrickStEr Project",
+        description:
+          "MyTrickster is a landing page for a game website that leverages assets from the popular game Blue Protocol. This personal project was developed to showcase my expertise in front-end web development, particularly in HTML, CSS, and JavaScript. The main focus of MyTrickster is to highlight an immersive, modern, and visually engaging UI/UX design that captures users' attention while providing a smooth and intuitive browsing experience. By incorporating responsive design techniques and interactive elements, MyTrickster serves as a platform to display both my technical skills and creative approach to web development.",
+      },
+      {
+        title: "Home Page",
+        description:
+          "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi voluptatum dolore, quidem fugiat quis sunt dignissimos a nostrum unde assumenda. Harum sequi totam officiis atque iusto quidem commodi natus labore?",
+      },
+      {
+        title: "Story Section",
+        description:
+          "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi voluptatum dolore, quidem fugiat quis sunt dignissimos a nostrum unde assumenda. Harum sequi totam officiis atque iusto quidem commodi natus labore?",
+      },
+      {
+        title: "Register Section",
+        description:
+          "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi voluptatum dolore, quidem fugiat quis sunt dignissimos a nostrum unde assumenda. Harum sequi totam officiis atque iusto quidem commodi natus labore?",
+      },
+      {
+        title: "Register Page",
+        description:
+          "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi voluptatum dolore, quidem fugiat quis sunt dignissimos a nostrum unde assumenda. Harum sequi totam officiis atque iusto quidem commodi natus labore?",
+      },
+      {
+        title: "Screenshot Page",
+        description:
+          "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi voluptatum dolore, quidem fugiat quis sunt dignissimos a nostrum unde assumenda. Harum sequi totam officiis atque iusto quidem commodi natus labore?",
+      },
+      {
+        title: "Spek Page",
+        description:
+          "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi voluptatum dolore, quidem fugiat quis sunt dignissimos a nostrum unde assumenda. Harum sequi totam officiis atque iusto quidem commodi natus labore?",
+      },
+    ],
+    image: [
+      "/assets/project/my-trickster/home.png",
+      "/assets/project/my-trickster/home.png",
+      "/assets/project/my-trickster/story-section.png",
+      "/assets/project/my-trickster/register-section.png",
+      "/assets/project/my-trickster/register-page.png",
+      "/assets/project/my-trickster/screenshot-page.png",
+      "/assets/project/my-trickster/spek-page.png",
+    ],
+    tag: ["html", "css", "js"],
+    status: "public",
+    github: "",
+    live: "",
   },
 };
 
