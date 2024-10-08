@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Onest", Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.animate-meteor-effect {
+  animation: meteor linear infinite; /* Use duration from meteorData */
+}
+
+.animal-walk{
+  animation: animal 120s linear infinite
+}
+
+.chicken-walk{
+  animation: flip 120s step-end infinite;
+}
+
+@keyframes meteor {
+  0% {
+      transform: rotate(215deg) translateX(0);
+      opacity: 1;
+  }
+  70% {
+      opacity: 1;
+  }
+  100% {
+      transform: rotate(215deg) translateX(-800px);
+      opacity: 0;
+  }
+}
+
+@keyframes animal{
+  0%, 100% {
+    transform: translateX(5%);
+  }
+  50% {
+      transform: translateX(90%);
+  }
+}
+
+@keyframes flip{
+  0%, 100% {
+    transform: scaleX(1);
+  }
+
+  50% {
+      transform: scaleX(-1);
+  }
+}
+
+.project:hover .view-content{
+  display: block;
+  bottom: 0;
+  transform: translateY(0); /* Bergerak ke posisi semula (atas) */
+}
+
+.view-content {
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  bottom: 0; /* Mulai dari di bawah elemen */
+  transform: translateY(100%)
+}
+
+
+.text-stroke{
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+}
+
+
+.swiper-pagination {
+  position: absolute;
+  bottom: 20;
+  margin-bottom: 20px;
+}
